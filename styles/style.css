@@ -1,0 +1,167 @@
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .container {
+    position: relative;
+    text-align: center;
+    display: grid;
+ }
+ 
+ .square {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(158, 158, 158);
+    border: 1px solid black;
+    display: inline-block;
+ }
+ 
+ .o {
+    position: relative;
+ }
+ 
+ .o:after {
+    content: "\26AA";
+    position: absolute;
+    font-size: 50px;
+    line-height: 100px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+ }
+ 
+ .x {
+    position: relative;
+ }
+ 
+ .x:after {
+    content: "\2716";
+    position: absolute;
+    font-size: 50px;
+    line-height: 100px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+ }
+ 
+ #restart {
+    text-align: center;
+ }
+ 
+ button {
+    font-family: Old English Text MT;
+    padding: 30px;
+    font-size: 20px;
+    background-color: rgb(158, 158, 158);
+    color: white;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 2vw;
+    transition: all;
+    transition-duration: 300ms;
+    font-weight: 900;
+ }
+ 
+ button:hover {
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(158, 158, 158);
+ }
+ 
+ #resultado {
+    font-family: Old English Text MT;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.9);
+    font-weight: 900;
+    font-size: 20px;
+    top:0;
+    color: rgb(255, 255, 255);
+ }
+ 
+ span {
+    background-color: rgb(158, 158, 158);
+    padding: 50px;
+    border-radius: 30px;
+ }
+ 
+ .chose {
+    font-family: Old English Text MT;
+    float: left;
+    position: relative;
+    text-align: center;
+    background-color: rgb(158, 158, 158);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+    border: 3px solid rgb(0, 0, 0);
+    max-width: 280px;
+    max-height:200px ;
+ }
+ 
+ .xd {
+    position: relative;
+ }
+ 
+ .xd:after {
+    content: "\2716";
+    position: absolute;
+    font-size: 40px;
+    top: -85px;
+    left: -90px;
+ }
+ 
+ input[type='radio'] {
+    margin-left: 20px;
+    margin-bottom: 50px;
+    display: block;
+ }
+ 
+ .od {
+    position: relative;
+ }
+ 
+ .od:after {
+    content: "\26AA";
+    position: absolute;
+    font-size: 30px;
+    top: -78px;
+    left: -95px;
+ }
+ 
+ .rr {
+    text-align: center;
+ }
+ .page{
+    display: grid;
+ 
+    grid-template: auto / auto auto;
+    justify-content: space-evenly;
+    margin-top: 9.5vw;
+    align-items: center;
+ }
+ .top{
+    font-family: Old English Text MT;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 80px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+ }
+ #topage{
+    margin: 0;
+ }
